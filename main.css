@@ -58,6 +58,7 @@ body{
   transition: 0.4s;
   border:none;
   background-color: inherit;
+  color: #000000;
 }
 
 .content__button:hover{
