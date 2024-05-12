@@ -2,7 +2,7 @@
   "name": "one-day-of",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "msin.js",
   "scripts": {
     "live": "live-server ./src"
   },
