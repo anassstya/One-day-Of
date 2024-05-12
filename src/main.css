@@ -1,0 +1,104 @@
+html{
+  font-size: 25px;
+}
+
+body{
+  background-color: rgba(239, 239, 232, 0.94);
+}
+
+.header__name{
+  font-family: 'Inter';
+  min-width: 13.5rem;
+  min-height: 44px;
+  font-weight: 600;
+  font-size: 2.25rem;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 1%;
+  margin: 0;
+}
+
+.header__span{
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 500;
+}
+
+.header__link{
+  text-decoration: none;
+}
+
+.content{
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+}
+
+.content__span{
+  font-style: italic;
+}
+
+.line{
+  height: 80vh;
+  color: black;
+  border: 1px solid black;
+}
+
+.content__button{
+  padding: 4% 10%;
+  min-width: 35vw;
+  border-radius: 15px;
+  font-size: 1.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  transition: 0.4s;
+  border:none;
+  background-color: inherit;
+}
+
+.content__button:hover{
+  letter-spacing: 0.05em;
+}
+
+@media (max-width: 2000px){
+  html{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1500px){
+  html{
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1000px){
+  html{
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 600px){
+  .content{
+    display: block;
+    text-align: center;
+    margin: 45% 0;
+  }
+
+  .content__button{
+    padding: 15%;
+  }
+
+  .line{
+    height: 0;
+  }
+}
+
+@media (max-width: 400px){
+  html{
+    font-size: 9px;
+  }
+}

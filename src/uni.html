@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One Day Of: Universities</title>
+  <link rel="stylesheet" href="uni.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header class="header">
+    <div class="header__logo">
+      <a href="#" class="header__link">
+        <h1 class="header__name">
+          One <span class="header__span">day</span> of
+        </h1>
+      </a>
+      <ul class="header__options">
+        <li class="header__options-item">Share a vlog!</li>
+        <li class="header__options-item">Blog</li>
+        <li class="header__options-item">Countries</li>
+      </ul>
+    </div>
+   
+    <ul class="header__menu">
+      <li class="menu__item">
+        <input type="text" class="menu__input" placeholder="search">
+      </li>
+      <li class="menu__item">
+        <button class="menu__btn-log" type="button">Log in</button>
+      </li>
+      <li class="menu__item">
+        <button class="menu__btn-sign" type="button">Sign up</button>
+      </li>
+    </ul>
+    <div class="header__burger-menu">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 24 24" fill="none">
+        <path d="M4 18L20 18" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+        <path d="M4 12L20 12" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+        <path d="M4 6L20 6" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+    </div>
+    <div class="popup">
+      <button class="popup__log menu__btn-log">
+        Log in
+      </button>
+      <div class="line"></div>
+      <button class="popup__sign menu__btn-sign">
+        Sign up
+      </button>
+    <svg class="popup__close" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M4.11 2.697L2.698 4.11 6.586 8l-3.89 3.89 1.415 1.413L8 9.414l3.89 3.89 1.413-1.415L9.414 8l3.89-3.89-1.415-1.413L8 6.586l-3.89-3.89z" fill="#000"/>
+    </svg>
+    </div>
+  </header>
+  <main class="main">
+    <div class="main__content">
+      <h1 class="main__header">
+        Discover your <br> dream career path:
+      </h1>
+      <p class="main__text">
+        Explore universities & workplaces with first-hand experience / real life vlogs 
+      </p>
+    </div>
+    <div class="main__scroll" id="scroll">
+      <ul class="main__list">
+        <li class="main__item">
+            <img class="main__img" src="img-scroll/pht-1.jpg" alt="">
+        </li>
+        <li class="main__item">
+            <img class="main__img" src="img-scroll/pht-2.jpg" alt="">
+        </li>
+        <li class="main__item">
+            <img class="main__img" src="img-scroll/pht-3.jpg" alt="">
+        </li>
+        <li class="main__item">
+            <img class="main__img" src="img-scroll/pht-4.jpg" alt="">
+        </li>
+      </ul>
+    </div>
+  </main>
+  <section class="videos">
+    <div class="videos__container">
+      <select class='videos__sort' id="sort" name="sort">
+        <option value="popular" selected>Popular</option>
+        <option value="newest">Newest</option>
+        <option value="oldest">Oldest</option>
+      </select>
+      <ul class="videos__menu">
+        <li class="videos__menu-item videos__menu-item-left"><</li>
+        <li class="videos__menu-item">Medicine</li>
+        <li class="videos__menu-item">Architecture</li>
+        <li class="videos__menu-item">Economics</li>
+        <li class="videos__menu-item">Management & Business</li>
+        <li class="videos__menu-item"> Computer Science</li>
+        <li class="videos__menu-item">Law</li>
+        <li class="videos__menu-item">Linguis</li>
+        <li class="videos__menu-item videos__menu-item-right">></li>
+      </ul>
+      <button class="videos__filter">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="20px" height="20px" viewBox="0 0 32 32" version="1.1">
+          <title>bars-filter</title>
+          <path d="M30 6.749h-28c-0.69 0-1.25 0.56-1.25 1.25s0.56 1.25 1.25 1.25v0h28c0.69 0 1.25-0.56 1.25-1.25s-0.56-1.25-1.25-1.25v0zM24 14.75h-16c-0.69 0-1.25 0.56-1.25 1.25s0.56 1.25 1.25 1.25v0h16c0.69 0 1.25-0.56 1.25-1.25s-0.56-1.25-1.25-1.25v0zM19 22.75h-6.053c-0.69 0-1.25 0.56-1.25 1.25s0.56 1.25 1.25 1.25v0h6.053c0.69 0 1.25-0.56 1.25-1.25s-0.56-1.25-1.25-1.25v0z"/>
+          </svg>
+        Filter
+      </button>
+    </div>
+    <div class="videos__content">
+      <article class="videos__content-item">
+        <a href="https://youtu.be/FmzBe0A-in4?si=izcl1-CF3zN1-7U4">
+          <img class="videos__img" src="videos-items/img-1.png" alt="">
+        </a>
+          <h2 class="article-header">
+            Medical School Sechenov University
+          </h2>
+          <p class="article-author">
+            Author:  Alek Vada 3rd course
+          </p>
+      </article>
+      <article class="videos__content-item">
+        <a href="https://youtu.be/LNwsFITTkvo?si=jOqmH95sPBuR9lY1">
+          <img class="videos__img" src="videos-items/img-2.png" alt="">
+        </a>
+        <h2 class="article-header">
+          Law School - SPbPU 
+        </h2>
+        <p class="article-author">
+          Author:  Alisa Chernova 2nd course
+        </p>
+      </article>
+      <article class="videos__content-item">
+        <a href="https://youtu.be/L8ULPBvkMPI?si=D2sN-W7lPgiQm-Ra">
+          <img class="videos__img" src="videos-items/img-3.png" alt="">
+        </a>
+        <h2 class="article-header">
+          Marketing and Analytics - NGU  
+        </h2>
+        <p class="article-author">
+          Author:  Ekaterina Zurina, 3rd course
+        </p>
+      </article>
+      <article class="videos__content-item">
+        <a href="https://youtu.be/6EpzIs3rkPc?si=sa64L6dOLjoqY1Dl">
+          <img class="videos__img" src="videos-items/img-4.png" alt="">
+        </a>
+        <h2 class="article-header">
+          Computer science and engineering - MSU 
+        </h2>
+        <p class="article-author">
+          Author: Sasha Aleksandrova 
+        </p>
+      </article>
+      <article class="videos__content-item">
+        <a href="https://youtu.be/IZZZQpRNeuw?si=QarcrybztiztaUOF">
+          <img class="videos__img" src="videos-items/img-5.png" alt="">
+        </a>
+        <h2 class="article-header">
+          Journalism and Communication - MSU 
+        </h2>
+        <p class="article-author">
+          Author:  Natasha Fresh  
+        </p>
+      </article>
+      <article class="videos__content-item">
+        <a href="https://youtu.be/zzujzNuFGeE?si=ncaQ3Ca-WHcnIJuj">
+          <img class="videos__img" src="videos-items/img-6.png" alt="">
+        </a>
+        <h2 class="article-header">
+          Economics and Business - LGU in SPb 
+        </h2>
+        <p class="article-author">
+          Author:  Eva Pronevskaya  
+        </p>
+      </article>
+    </div>
+  </section>
+  <script src="main.js"></script>
+</body>
+</html>

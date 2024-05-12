@@ -1,0 +1,22 @@
+{
+  "name": "one-day-of",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "live": "live-server ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anassstya/One-day-Of.git"
+  },
+  "author": "anassstya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anassstya/One-day-Of/issues"
+  },
+  "homepage": "https://github.com/anassstya/One-day-Of#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
